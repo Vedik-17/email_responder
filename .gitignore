@@ -1,0 +1,19 @@
+# Ignore model checkpoints and large model files
+gpt2-finetuned-email/
+
+# Ignore large datasets
+datasets/enron_emails.csv
+datasets/custom_email_responses_dataset.csv
+final_dataset.csv
+training_data.jsonl
+final_data.jsonl
+
+# Ignore Python cache
+__pycache__/
+
+# Ignore virtual environment
+venv/
+
+# Ignore token and credentials files for security
+token.pickle
+credentials.json
